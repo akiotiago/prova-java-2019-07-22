@@ -1,0 +1,15 @@
+<root>
+	<resumo>
+		<media_geral>0.0</media_geral>
+		<nota_maxima>0.0</nota_maxima>
+		<nota_minima>0.0</nota_minima>
+		<quantidade_alunos>0</quantidade_alunos>
+	</resumo>
+	<alunos>
+		<aluno id="21" nome="João" media="7.5" />
+		<aluno id="22" nome="Pedro" media="8.2" />
+		<aluno id="23" nome="Okio" media="9.5" />
+		<aluno id="44" nome="Francisco" media="9.1" />
+		<aluno id="18" nome="Joaquim" media="7.2" />
+	</alunos>
+</root>
