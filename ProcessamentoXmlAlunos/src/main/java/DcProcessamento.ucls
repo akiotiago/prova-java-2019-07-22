@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="sis.alunos.excecoes" project="ProcessamentoXmlAlunos" 
+    file="/ProcessamentoXmlAlunos/src/main/java/sis/alunos/excecoes" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="118" y="45"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="sis.alunos.utils" project="ProcessamentoXmlAlunos" 
+    file="/ProcessamentoXmlAlunos/src/main/java/sis/alunos/utils" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="486" y="166"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="sis.alunos.main" project="ProcessamentoXmlAlunos" 
+    file="/ProcessamentoXmlAlunos/src/main/java/sis/alunos/main" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="342" y="43"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="sis.alunos.model" project="ProcessamentoXmlAlunos" 
+    file="/ProcessamentoXmlAlunos/src/main/java/sis/alunos/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="340" y="165"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="sis.alunos.impl" project="ProcessamentoXmlAlunos" 
+    file="/ProcessamentoXmlAlunos/src/main/java/sis/alunos/impl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="122" y="165"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
